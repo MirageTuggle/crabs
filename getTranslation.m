@@ -1,3 +1,5 @@
-function retval = getTranslation (x, y)
-T=[1 0 x; 0 2 y; 1]
+function T = getTranslation (dx, dy)
+
+T=[1 0 dx; 0 1 dy; 0 0 1];
+
 endfunction
